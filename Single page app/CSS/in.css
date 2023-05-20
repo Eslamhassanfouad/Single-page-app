@@ -1,0 +1,210 @@
+
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3377819a;
+}
+
+main{
+    /* position: relative; */
+    min-height: 100vh;
+    background: linear-gradient(to right top,#46ffc1,#7adae9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.glass{
+    /* background: #dffcf2;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(
+        to righ bottom,
+         rgba(255, 255, 255, 0.7),
+         rgba(255, 255, 255, 0.3)
+         
+    ); */
+    background: rgba(185, 255, 237, 0.7);
+    min-height: 80vh;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    z-index: 3;
+    background: linear-gradient(
+        to right bottom,
+         rgba(255, 255, 255, 0.7),
+         rgba(255, 255, 255, 0.3)
+    );
+    display: flex;
+}
+.circle1{
+    /* background: #fafafa;
+    background: linear-gradient(
+        to righ bottom,
+         rgba(255, 255, 255, 0.9),
+         rgba(255, 255, 255, 0.1)
+    );
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    right: 100px ; */
+    background: #9cefff;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(100px);
+    border: 1px solid rgba(250, 250, 250, 0);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 160px;
+   
+    
+    
+}
+.circle2{
+    background: rgb(161, 255, 219);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(250, 250, 250, 0.3);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1px;
+    left: 160px;
+    z-index: 2;
+}
+.perImg{
+    height: 60px;
+    width: 60px;
+}
+
+.dashboard{
+    /* position: absolute; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 15px;
+    /* padding: 10px ; */
+
+    
+    
+    /* background: #ffffff; */
+    background: linear-gradient(
+        to right bottom,
+         rgba(255, 255, 255, 0.5),
+         rgba(255, 255, 255, 0.3)      
+    )
+    
+    
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.user h4 ,.user p{
+    margin:0px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 1rem;
+}
+.link img{
+    height: 30px;
+    width: 30px;
+}
+.link h4{
+    padding: 0rem 1rem;
+}
+
+
+.cards img{
+    height: 50px;
+    width: 50px;
+}
+
+.games{
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 1rem 2rem;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-align: center;
+
+    background: linear-gradient(
+        to right bottom,
+         rgba(255, 255, 255, 0.8),
+         rgba(255, 255, 255, 0.7)      
+    );
+border-radius: 15px;
+padding: 1rem;
+}
+.card-info img{
+    width: 80px;
+    height: 80px;
+    
+}
+.status{
+    margin-bottom: 1rem;
+}
+.status h1{
+    margin: 0px;
+}
+.status input{
+    border: 0px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(
+        to right bottom,
+         rgba(255, 255, 255, 0.8),
+         rgba(255, 255, 255, 0.8)      
+    );
+}
+.game-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.game-name h2{
+    margin: 0.3rem 0rem;
+}
+.game-name p{
+    margin: 0.3rem 0rem;
+}
+.bar{
+    height: 20px; 
+    border-radius: 15px; 
+    width: 200px; 
+    border: 0.5px solid rgba(87, 86, 86, 0.041); 
+    background-color: rgba(112, 112, 112, 0.185);
+    
+}
+.bar-in{
+     
+    background-color:rgba(63, 250, 225, 0.582); 
+    height: 100%; 
+    border-radius: 15px;
+}
